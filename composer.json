@@ -1,0 +1,25 @@
+{
+    "name": "louis/louis-laurent.fr",
+    "authors": [
+        {
+            "name": "brokenfiles",
+            "email": "louis.nevysup@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src"
+        }
+    },
+    "require": {
+        "slim/slim": "3.5",
+        "slim/twig-view": "2.1",
+        "aura/sqlquery": "^2.7",
+        "cocur/slugify": "2.0",
+        "swiftmailer/swiftmailer": "^6.2",
+        "abraham/twitteroauth": "^1.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}
